@@ -9387,7 +9387,7 @@
       "title": "RepoCreds holds the definition for repository credentials",
       "properties": {
         "azureCloud": {
-          "description": "AzureCloud specifies which Azure cloud this repository is hosted in. Options are AzurePublic, AzureChina, AzureGovernment.",
+          "description": "AzureCloud specifies which Azure cloud this repository is hosted in. Options are AzurePublic, AzureChina, AzureUSGovernment.",
           "type": "string"
         },
         "bearerToken": {
@@ -9490,7 +9490,7 @@
       "title": "Repository is a repository holding application configurations",
       "properties": {
         "azureCloud": {
-          "description": "AzureCloud specifies which Azure cloud this repository is hosted in. Options are AzurePublic, AzureChina, AzureGovernment.",
+          "description": "AzureCloud specifies which Azure cloud this repository is hosted in. Options are AzurePublic, AzureChina, AzureUSGovernment.",
           "type": "string"
         },
         "bearerToken": {
